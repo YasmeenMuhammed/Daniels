@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+    #About .about-desc{
+        padding-top: 30px;
+    }
+    .contact-input{
+        margin-bottom: 15px;
+    }
+    .all-contact{
+        width: 100% !important;
+    }
+    textarea{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1018px) {
+   #nav-list li a{
+    width: fit-content;
+   }
+   #Home .home-caption {
+    transform: translateY(50px);
+   }
+   .home-icon{
+    transform: translateY(50px);
+
+   }
+    .contact-input{
+        margin-bottom: 15px;
+    }
+    .all-contact{
+        width: 100% !important;
+    }
+    textarea{
+        margin-top: 0;
+    }
+}
